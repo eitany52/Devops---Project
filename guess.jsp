@@ -1,4 +1,3 @@
-
 <%! 
     int numGuesses(int n) {
       double log2n = Math.log10(n) / Math.log10(2);
