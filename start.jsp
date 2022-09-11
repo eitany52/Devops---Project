@@ -1,10 +1,10 @@
 <html>
 
-<body>
+<body style="background-color:pink;">
 
 <form method=POST action=guess.jsp>
 
-<h1>
+<h1 style="color:darkblue;">
 Welcome to the guessing game.
 </h1>
 

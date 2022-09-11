@@ -50,7 +50,7 @@
 %>
 
 <html>
-
+<body style="background-color:lightblue;">
 <%
   if (doneGuessing) {
 %>
@@ -69,12 +69,12 @@ You are thinking of <%= iUpper %>!
 
 <% } else { %>
 
-<h1>
+<h1 style="color:maroon;">
 You are thinking of a number. <br>
 It will take me <%= requiredGuesses %> guesses to guess it!
 </h1>
 
-<h2>The computer has asked <%= q+1 %> questions so far.</h2>
+<h2  style="color:darkgreen">The computer has asked <%= q+1 %> questions so far.</h2>
 
 <p>
 Is your number less than or equal to <%= pivot %>?
@@ -91,5 +91,7 @@ Is your number less than or equal to <%= pivot %>?
 </form>
 
 <% } %>
+
+</body>
 
 </html>
